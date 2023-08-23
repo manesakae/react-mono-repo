@@ -1,0 +1,29 @@
+{
+  "name": "package-2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "manesakae <manesakae@gmail.com>",
+  "homepage": "https://github.com/manesakae/react-mono-repo#readme",
+  "license": "ISC",
+  "main": "lib/package-2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manesakae/react-mono-repo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/package-2.test.js"
+  },
+  "dependencies": {
+    "package-1": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/manesakae/react-mono-repo/issues"
+  }
+}
